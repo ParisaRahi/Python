@@ -1,0 +1,12 @@
+	del b)	Når vi skulle lese inn data fra tekst filen, måtte vi lagre dem i et nytt objekst (Sang), så utførte vi ingen operasjon på _filnavn som var i konstrøktoren, så synes jeg det var ikke behov å ha det i konstrøktoren. Å lese fil i en egen metode gjør koden enda mer oversiktig og når vi oppretter spillelist objekt, kalles ikke les fra fil automastik når vi ikke har behov for det.															
+																	
+																	
+																	
+																	
+	del c)	siden lister er nummerert, da kan vi organisere våre data i en liste															
+																	
+		også en annen grunn kan være at lister tar vare på dataer som er like i forhold til orbok som tar imot unike verdier, det hjelper oss når vi skal sjekke hver eneste bokstav i artistNavn metoden.															
+																	
+																	
+																	
+	del d)	det kalles på sang.streng_til_fil i skriv_til_fil metode i klasse Spilleliste,  metoden streng_til_fil er satt opp i form av self._tittel og self._artist, her kan vi endre rekkefølgen.															
